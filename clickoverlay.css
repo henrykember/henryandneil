@@ -1,0 +1,51 @@
+html{
+  font-family: "Helvetica Neue", sans-serif;
+  width:100%;
+  color:#666666;
+  text-align:center;
+}
+
+.popup-overlay{
+  /*Hides pop-up when there is no "active" class*/
+  visibility:hidden;
+  opacity: 0;
+  position:absolute;
+  background:pink;
+  border:3px solid #666666;
+  width:90%;
+  height:700px;
+  left:5%; 
+  transition: visibility 3s linear 800ms, opacity 900ms;
+}
+.popup-overlay.active1{
+  /*displays pop-up when "active" class is present*/
+  visibility:visible;
+  opacity: 1;
+  text-align:center;
+  transition: /*visibility 0s linear 800ms*/ opacity 900ms;
+}
+
+/*.popup-content {
+ visibility:hidden;
+}*/
+
+/*.popup-content.active1 {
+  visibility:visible;
+}*/
+
+button{
+  display:inline-block;
+  vertical-align:middle;
+  border-radius:30px;
+  margin:.20rem;
+  font-size: 1rem;
+  color:#666666;
+  background:   #ffffff;
+  border:1px solid #666666;  
+}
+
+button:hover{
+  border:1px solid #666666;
+  background:#666666;
+  color:#ffffff;
+}
