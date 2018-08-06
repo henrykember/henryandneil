@@ -64,37 +64,31 @@ body {
   top: 20vw;
   left: 50vw;
   width: 30%;
-  /*opacity: 0;*/
 }
 .vembraceimg img {
   top: 15vw;
   left: 10vw;
   width: 30%;
-  /*opacity: 0;*/
 }
 .cginfiniteimg img {
   top: 25vw;
   left: 30vw;
   width: 30%;
-  /*opacity: 0;*/
 }
 .miximg img {
   top: 5vw;
   left: 50vw;
   width: 23%;
-  /*opacity: 0;*/
 }
 .volwediimg img {
   top: 45vw;
   left: 20vw;
   width: 30%;
-  /*opacity: 0;*/
 }
 .voleclimg  img {
   top: 27vw;
   left: 10vw;
   width: 30%;
-/*  opacity: 0;*/
 }
 .menuitem:hover img {
   opacity: 1;
