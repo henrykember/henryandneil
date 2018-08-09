@@ -5,27 +5,17 @@ $(document).ready(function() {
 
 //appends an "active" class to .popup and .popup-content when the "Open" button is clicked
 $("#gdinttitle").on("click", function(){
-  $(".gdinterviews, .vidcontainer, .vidwrapper").addClass("active1"); 
+  $(".gdinterviews, .gdicontainer, .gdiwrapper, .gdivid").addClass("active1"); 
 });
-$("#volvoembracetitle").on("click", function(){
-  $(".volvoembrace, .vidcontainer, .vidwrapper").addClass("active1"); 
+$("#cginfinitetitle").on("click", function(){
+  $(".cginfinite, .cgicontainer, .cgiwrapper, .cgivid").addClass("active1"); 
 });
-$("#cginftitle").on("click", function(){
-  $(".cginfinite, .vidcontainer, .vidwrapper").addClass("active1"); 
-});
-$("#cginftitle").on("click", function(){
-  $(".volvoembrace, .vidcontainer, .vidwrapper").addClass("active1"); 
-});
-$("#mixtitle").on("click", function(){
-  $(".mixionary, .vidcontainer, .vidwrapper").addClass("active1"); 
-});
-
 //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
 $(".close").on("click", function(){
-  $(".gdinterviews, .volvoembrace, .cginfinite, .mixionary, .vidcontainer, .vidwrapper").removeClass("active1");
+  $(".gdinterviews, .volvoembrace, .cginfinite, .mixionary").removeClass("active1");
 });
 
-$("#gdinttitle, #volvoembracetitle, #cginftitle, #mixtitle").on("click", function(){
+$("#gdinttitle, #cginfinitetitle").on("click", function(){
   $("body").addClass("pause"); 
 });
 
