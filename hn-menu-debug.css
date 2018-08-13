@@ -70,6 +70,11 @@ body {
   left: 10vw;
   width: 30%;
 }
+.miximg img {
+  top: 10vw;
+  left: 70vw;
+  width: 21%;
+}
 .menuitem:hover img {
   opacity: 1;
 }
@@ -94,55 +99,6 @@ body {
     font-size: 3.5vw;
 	right: 2vw;
 }
-.medium  {
-	font-style: italic;
-}
-.gdicontainer {
-  position: relative;
-  visibility: hidden;
-  margin-bottom: 4vw;
-  width: 63vw;
-}
-.gdiwrapper {
-  visibility: hidden;
-  margin-top: 30px;
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-}
-.gdivid {
-  position: absolute;
-  visibility: hidden;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: auto;
-  z-index: 1000;
-}*/
-.cgicontainer {
-  position: relative;
-  visibility: hidden;
-  margin-bottom: 4vw;
-  width: 63vw;
-}
-.cgiwrapper {
- visibility: hidden;
-  margin-top: 30px;
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-}
-.cgivid {
-  position: absolute;
-  visibility: hidden;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: auto;
-  z-index: 1000;
-}
 .gdinterviews{
   /*Hides pop-up when there is no "active" class*/
   display: block;
@@ -158,6 +114,15 @@ body {
   right: auto;
   transition: visibility 0s linear 800ms, opacity 900ms;
   z-index: 100;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+.gdinterviews iframe {
+	box-sizing: border-box;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	z-index: 200;
 }
 .cginfinite {
   /*Hides pop-up when there is no "active" class*/
@@ -174,6 +139,34 @@ body {
   right: auto;
   transition: visibility 0s linear 800ms, opacity 900ms;
   z-index: 100;
+}
+.cginfinite iframe {
+	box-sizing: border-box;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+.mixionary {
+  /*Hides pop-up when there is no "active" class*/
+  display: block;
+  visibility:hidden;
+  opacity: 0;
+  position:absolute;
+  top: 5vw;
+  background:pink;
+  border:3px solid #666666;
+  width:90%;
+  height:70vw;
+  left: 5%;
+  right: auto;
+  transition: visibility 0s linear 800ms, opacity 900ms;
+  z-index: 100;
+}
+.mixionary iframe {
+	box-sizing: border-box;
+	list-style: none;
+	width: 100%;
+	height: 100%;
 }
 .active1{
   /*displays pop-up when "active" class is present*/

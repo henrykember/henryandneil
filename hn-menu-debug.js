@@ -5,17 +5,20 @@ $(document).ready(function() {
 
 //appends an "active" class to .popup and .popup-content when the "Open" button is clicked
 $("#gdinttitle").on("click", function(){
-  $(".gdinterviews, .gdicontainer, .gdiwrapper, .gdivid").addClass("active1"); 
+  $(".gdinterviews").addClass("active1"); 
 });
 $("#cginfinitetitle").on("click", function(){
-  $(".cginfinite, .cgicontainer, .cgiwrapper, .cgivid").addClass("active1"); 
+  $(".cginfinite").addClass("active1"); 
+});
+$("#mixtitle").on("click", function(){
+  $(".mixionary").addClass("active1"); 
 });
 //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
 $(".close").on("click", function(){
   $(".gdinterviews, .volvoembrace, .cginfinite, .mixionary").removeClass("active1");
 });
 
-$("#gdinttitle, #cginfinitetitle").on("click", function(){
+$("#gdinttitle, #cginfinitetitle, #mixtitle").on("click", function(){
   $("body").addClass("pause"); 
 });
 

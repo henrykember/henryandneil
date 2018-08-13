@@ -1,0 +1,23 @@
+html  {
+	margin-top: 0;
+	margin-left: 0;
+}
+body  {
+  font-family: helvetica, sans-serif;
+}
+div.gdprint  {
+	display: block;
+	/*object-fit: contain;*/
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 300px;
+	border: 0px solid black;
+}
+
+a.venobox  {
+	margin-top: 50px;
+	border: 0px solid black;
+}
+.venobox img  {
+	width: 100%;
+}
