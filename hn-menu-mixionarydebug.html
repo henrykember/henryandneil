@@ -1,0 +1,120 @@
+<html lang="en">
+  <!--  Given you knew how to look under the hood, you can probably also tell what an amateur job I did building this site. In which case, feel free to tell me what I could do better at hmkember@gmail.com. (Seriously, I’d love to know.) -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="pinterest" content="nopin" />
+    <title>Test | Menu</title>
+    <link rel="stylesheet" type="text/css" href="./reset.css"/>
+    <link rel="stylesheet" type="text/css" href="./hn-menu-debug.css"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="hn-menu-debug.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="venobox/venobox.min.js"></script>
+    <!-- <script type="text/javascript" src="venobox/venoboxtest.js"></script> -->
+  </head>
+  <body>
+
+    <div class="nav">   
+     
+        <button class="menuitem" id="gdinttitle">GuideDogs<span>Interviews</span>
+          <div class="gdimg"><img src="GDINT-still.png"></div>
+          </button>
+        <button class="menuitem" id="cginfinitetitle">Covergirl<span>ByTheInfinite</span>
+          <div class="cginfimg"><img src="cginfstill.png"></div>
+
+    	<button class="menuitem" id="mixtitle">Diageo<span>Mixionary</span>
+		    	<div class="miximg"><img src="Bloody-Mary-med.jpg"></div>
+		    </button>
+	
+		    <button class="menuitem" id="volvoembracetitle">Volvo<span>EmbraceTheFuture</span>
+	  	  		<div class="vembraceimg"><img src="Volvostill1.png"></div>
+		    </button>
+		
+	
+		       <button class="menuitem" id="cgshadetitle">Covergirl<span>ShadeForShade</span>
+		    	<div class="cgshadeimg"><img src="cgshadestill.png"></div>
+		    </button>
+		    <button class="menuitem" id="volvoweddingtitle">Volvo<span>Wedding</span>
+		    	<div class="miximg"><img src="volvoweddingstill.png"></div>
+		    </button>
+		    <button class="menuitem" id="seafollytitle">Seafolly&times;Panama<span>StayForever</span>
+		    	<div class="seaimg"><img src="seafollystill.jpg"></div>
+		    </button>
+		    <button class="menuitem" id="seafollytitle">Seafolly&times;Panama<span>StayForever</span>
+		    	<div class="seaimg"><img src="seafollystill.png"></div>
+		    </button>
+		    <button class="menuitem" id="volvoeclipsetitle">Volvo<span>SolarEclipse</span>
+		    	<div class="voleclimg"><img src="cnn.eclipse.logo.jpg"></div>
+		    </button>
+	  </div>
+
+
+    <div class="work gdinterviews">
+      <button class="close">&times;</button>
+      <iframe  src="hn-gdinterviews.html" frameborder="0"></iframe>
+    </div>
+    <div class="work cginfinite">
+      <button class="close">&times;</button>
+      <iframe  src="hn-cginfinite.html" frameborder="0"></iframe>
+    </div>
+    <!-- <div class="work mixionary">
+      <button class="close">&times;</button>
+      <iframe  src="hn-mixionary.html" frameborder="0"></iframe>
+    </div> -->
+      <div class="work mixionary">
+      	<button class="close">&times;</button>
+      	<h1 class="title">Covergirl</h1>
+	    <h2 class="medium">Test 1</h2>
+	    <p class="blurb">To launch Diageo's Mixionary cocktail website, we created a series of posters screenprinted by hand: each a graphical recipe for a single cocktail. These were exhibited at a launch event, and the posters were offered for sale. (Click thumbnails for slideshow.)</p>
+	    
+	    <div class="workcontainer">
+	      
+	              <div class="gallery-wrap mixionary">
+	                <a class="venobox" data-gall="myGallery" href="images/mixionary/Bloody Mary Poster.jpg"><img class="mixpic" src="images/mixionary/mixionary-medium/Bloody-Mary-med.jpg"/></a>
+	                <a class="venobox" data-gall="myGallery" href="images/mixionary/Agave Margarita Poster.jpg"><img class="mixpic" src="images/mixionary/mixionary-medium/Agave-Margarita-med.jpg"/></a>
+	                <a class="venobox" data-gall="myGallery" href="images/mixionary/GinTonic Poster.jpg"><img class="mixpic" src="images/mixionary/mixionary-medium/GinTonic-med.jpg"/></a>
+	                <a class="venobox" data-gall="myGallery" href="images/mixionary/Cosmopolitan Poster.jpg"><img class="mixpic" src="images/mixionary/mixionary-medium/Cosmopolitan-med.jpg"/></a>  
+	                <a class="venobox" data-gall="myGallery" href="images/mixionary/La Primavera Poster.jpg"><img class="mixpic" src="images/mixionary/mixionary-medium/La-Primavera-med.jpg"/></a>  
+	                <a class="venobox" data-gall="myGallery" href="images/mixionary/Vodka Martini Poster.jpg"><img class="mixpic" src="images/mixionary/mixionary-medium/Vodka-Martini-med.jpg"/></a>  
+	              </div>
+	             <!--  <div class="mixpubshots"> -->
+	               <img class="mixpub" src="images/mixionary/gallery1_1024.jpg"/>
+	               <img class="mixpub" src="images/mixionary/gallery2_1024.jpg"/>
+	              <!--  <img id="mixpub2" src="images/mixionary/side-by-side_1024.jpg"/> -->
+	               <img class="mixpub" id="awardboard" src="images/mixionary/MixionaryPromoActivation.jpg"/>
+	          <!--     </div> -->
+
+	      </div>
+		  <script class="secret-source">
+		        jQuery(document).ready(function($) {
+
+		          $('#banner-fade').bjqs({
+		            height      : 424,
+		            width       : 300,
+		            responsive  : true,
+		            nexttext : '&#8680;', // Text for 'next' button (can use HTML)
+		            prevtext : '&#x21e6;', // Text for 'previous' button (can use HTML)
+		            animtype : 'fade', // accepts 'fade' or 'slide'
+		            animduration : 450, // how fast the animation are
+		            animspeed : 4000, // the delay between each slide
+		            automatic : false, // automatic
+		          });
+
+		        });
+		  </script>
+	</div>
+
+
+    
+
+  
+    <div class="bottom">
+    <i class="fa fa-copyright" aria-hidden="true"></i> Henry Kember & Neil Maclean 2018</div>
+   </div>
+<!--  </div> -->
+</body>
+
+</html>
+
+<!-- <iframe src="https://player.vimeo.com/video/278740500?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/278740500">Covergirl Exhibitionist Lipstick - Shade for Shade</a> from <a href="https://vimeo.com/user5494324">Henry Kember</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->

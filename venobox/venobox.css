@@ -272,6 +272,7 @@
     text-align: left;
     margin: 0 auto;
     overflow: auto;
+    /*z-index: 1000;*/
 }
 
 /* ------- Video & iFrames window ------ */
