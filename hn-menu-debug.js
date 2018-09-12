@@ -13,12 +13,15 @@ $("#cginfinitetitle").on("click", function(){
 $("#mixtitle").on("click", function(){
   $(".mixionary").addClass("active1"); 
 });
+$("#gdexptitle").on("click", function(){
+  $(".gdexperience").addClass("active1"); 
+});
 //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
 $(".close").on("click", function(){
-  $(".gdinterviews, .volvoembrace, .cginfinite, .mixionary").removeClass("active1");
+  $(".gdinterviews, .volvoembrace, .cginfinite, .mixionary, .gdexperience").removeClass("active1");
 });
 
-$("#gdinttitle, #cginfinitetitle, #mixtitle").on("click", function(){
+$("#gdinttitle, #cginfinitetitle, #mixtitle, #gdexptitle").on("click", function(){
   $("body").addClass("pause"); 
 });
 

@@ -75,6 +75,11 @@ body {
   left: 70vw;
   width: 21%;
 }
+.gdeximg img {
+  top: 35vw;
+  left: 40vw;
+  width: 21%;
+}
 .menuitem:hover img {
   opacity: 1;
 }
@@ -167,6 +172,29 @@ body {
 	list-style: none;
 	width: 100%;
 	height: 100%;
+  overflow: hidden;
+}
+.gdexperience {
+  /*Hides pop-up when there is no "active" class*/
+  display: block;
+  visibility:hidden;
+  opacity: 0;
+  position:absolute;
+  top: 5vw;
+  background:pink;
+  border:3px solid #666666;
+  width:90%;
+  height:300vw;
+  left: 5%;
+  right: auto;
+  transition: visibility 0s linear 800ms, opacity 900ms;
+  z-index: 100;
+}
+.gdexperience iframe {
+  box-sizing: border-box;
+  list-style: none;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 .active1{

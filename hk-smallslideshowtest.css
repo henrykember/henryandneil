@@ -21,6 +21,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 20px 70px;
+  list-style-type: none;
   /*border: 1px solid black;*/
 }
 .menuitems a  {
@@ -90,7 +91,7 @@ body {
 }
 .bjqs-controls .bjqs-prev a {
   margin-left: -50px;
-  list-style-type: none;
+  list-style: circle;
   text-decoration: none;
   color: #000000;
   font-size: 40px;
@@ -103,11 +104,13 @@ body {
   font-size: 40px;
 }
 .bjqs-markers.h-centered a  {
-  list-style-type: none;
+  list-style: circle;
+  /*list-style-type: none;*/
   text-decoration: none;
   color: #000000;
   font-size: 30px;
   line-height: 35px;
+  visibility: hidden;
 }
 .bottom  {
   position: absolute;
@@ -119,18 +122,3 @@ body {
   text-align: center;
   line-height: 20px;
 }
-/*@media (min-width: 1400px) { 
-    #container  {
-  width: 940px;
-  height: 940px;
-  margin-left: 320px;
-  border: 0px solid black;
-}
-.secret-source  {
-  height      : 473;
-  width       : 840;
-}
-    .bottom  {
-      margin-top: 129px;
-    }
-}*/
